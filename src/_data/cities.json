@@ -1,0 +1,19 @@
+{
+  "Capitols": [
+    {
+      "Name": "Austin",
+      "Population": 1000000,
+      "State": "Texas"
+    },
+    {
+      "Name": "Sante Fe",
+      "Population": 30000,
+      "State": "New Mexico "
+    },
+    {
+      "Name": "Baton Rouge",
+      "Population": 80000,
+      "State": "Louisiana"
+    }
+  ]
+}
