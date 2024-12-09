@@ -3,21 +3,21 @@
     {
       "name": "Gdansk",
       "population": 465620,
-      "voivodeship ": "Pomeranian",
+      "voivodeship": "Pomeranian",
       "slug": "gdansk",
       "image": "gdansk.jpg"
     },
     {
       "name": "Szczecin",
       "population": 397573,
-      "voivodeship ": "West Pomeranian ",
+      "voivodeship": "West Pomeranian ",
       "slug": "szczecin",
       "image": "szczecin.jpg"
     },
     {
       "name": "Torun",
       "population": 199439,
-      "voivodeship ": "Kuyavian-Pomeranian",
+      "voivodeship": "Kuyavian-Pomeranian",
       "slug": "torun",
       "image": "torun.jpg"
     }
