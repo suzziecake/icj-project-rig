@@ -2,29 +2,21 @@
 
 {% block page_title %}ICJ Final Project 2024{% endblock %}
 
-{% block page_description %}The index search description for this page goes here.{% endblock %}
+{% block page_description %}Cities in Poland I've Visited{% endblock %}
 
 {% block content %}
 <div class="container">
   <h1> ICJ Final Project 2024</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <p>Witam. Welcome. This is my fall 2024 final project for my Intro to Coding for Journalists class with Professor Linwood at the University of Texas at Austin. For my website, I will be sharing which cities I've visited in Poland. Enjoy.</p>
+  <h2>Cities in Poland I've Visited</h2>
+  <p>This loops through data that came from my Google Sheets file.</p>
   <div class="row">
-    {% for book in library.books %}
+    {% for city in cities.cities %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ city.slug }}.jpg" alt="" class="img-fluid">
+        <h3><a href="cities/{{ city.slug }}.html">{{ city.name }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
 </div>
 {% endblock %}

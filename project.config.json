@@ -6,11 +6,6 @@
       "name": "library"
     },
     {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
-    },
-    {
       "fileId": "1BJEnwtEppqqkQK8-sTeCVlMFhXKeg6hHX19o5y1C6PA",
       "type": "sheet",
       "name": "cities"
@@ -18,11 +13,11 @@
   ],
   "to_bake": [
     {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "template": "bake-city",
+      "data": "cities",
+      "array": "cities",
       "slug": "slug",
-      "path": "books"
+      "path": "cities"
     }
   ]
 }

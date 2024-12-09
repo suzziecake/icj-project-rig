@@ -1,19 +1,25 @@
 {
-  "Capitols": [
+  "cities": [
     {
-      "Name": "Austin",
-      "Population": 1000000,
-      "State": "Texas"
+      "name": "Gdansk",
+      "population": 465620,
+      "voivodeship ": "Pomeranian",
+      "slug": "gdansk",
+      "image": "gdansk.jpg"
     },
     {
-      "Name": "Sante Fe",
-      "Population": 30000,
-      "State": "New Mexico "
+      "name": "Szczecin",
+      "population": 397573,
+      "voivodeship ": "West Pomeranian ",
+      "slug": "szczecin",
+      "image": "szczecin.jpg"
     },
     {
-      "Name": "Baton Rouge",
-      "Population": 80000,
-      "State": "Louisiana"
+      "name": "Torun",
+      "population": 199439,
+      "voivodeship ": "Kuyavian-Pomeranian",
+      "slug": "torun",
+      "image": "torun.jpg"
     }
   ]
 }
