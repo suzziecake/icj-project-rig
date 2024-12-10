@@ -12,7 +12,7 @@
   <p>This loops through data that came from my Google Sheets file.</p>
   <div class="row">
     {% for city in cities.cities %}
-      <div class="col">
+      <div class="col-sm-4">
         <img src="img/{{ city.slug }}.jpg" alt="" class="img-fluid">
         <h3><a href="cities/{{ city.slug }}.html">{{ city.name }}</a></h3>
       </div>
