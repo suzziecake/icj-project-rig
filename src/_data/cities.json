@@ -5,21 +5,24 @@
       "population": 465620,
       "voivodeship": "Pomeranian",
       "slug": "gdansk",
-      "image": "gdansk.jpg"
+      "image": "gdansk.jpg",
+      "blurb": "Ah, Gdansk. Arguably one of my favorites. Visited the city summer 2022, returned for the nearby music festival: Open’er. Quite the hub of people here. Beautiful architecture, cold beaches and plenty of wartime history. Hope to be back soon."
     },
     {
       "name": "Szczecin",
       "population": 397573,
       "voivodeship": "West Pomeranian ",
       "slug": "szczecin",
-      "image": "szczecin.jpg"
+      "image": "szczecin.jpg",
+      "blurb": "Here you can find the Berlin-Szczecin railway. I've been on it a few times when traveling to visit family. For most of my time being spent in a train station, I took this picture of this cool landmark on the left. “The Monument of Railwayman.”"
     },
     {
       "name": "Torun",
       "population": 199439,
       "voivodeship": "Kuyavian-Pomeranian",
       "slug": "torun",
-      "image": "torun.jpg"
+      "image": "torun.jpg",
+      "blurb": "The birthplace of Nicholas Copernicus. Otherwise in Polish as Mikolaj Kopernik. Small, historic city by the Vistula River. Just visited this past summer. Went to see Copernicus’ museum and statue, teutonic castle ruins and even witnessed an international European firefighters competition. Lovely churches throughout."
     }
   ]
 }
